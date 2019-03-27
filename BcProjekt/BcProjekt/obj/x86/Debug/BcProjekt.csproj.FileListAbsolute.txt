@@ -1,0 +1,10 @@
+/home/jan/Projects/BcProjekt/BcProjekt/bin/Debug/BcProjekt.exe
+/home/jan/Projects/BcProjekt/BcProjekt/bin/Debug/BcProjekt.pdb
+/home/jan/Projects/BcProjekt/BcProjekt/obj/x86/Debug/BcProjekt.csprojAssemblyReference.cache
+/home/jan/Projects/BcProjekt/BcProjekt/obj/x86/Debug/BcProjekt.csproj.CoreCompileInputs.cache
+/home/jan/Projects/BcProjekt/BcProjekt/obj/x86/Debug/BcProjekt.exe
+/home/jan/Projects/BcProjekt/BcProjekt/obj/x86/Debug/BcProjekt.pdb
+/home/jan/Projects/BcProjekt/BcProjekt/bin/Debug/Newtonsoft.Json.dll
+/home/jan/Projects/BcProjekt/BcProjekt/bin/Debug/Newtonsoft.Json.pdb
+/home/jan/Projects/BcProjekt/BcProjekt/bin/Debug/Newtonsoft.Json.xml
+/home/jan/Projects/BcProjekt/BcProjekt/obj/x86/Debug/BcProjekt.csproj.CopyComplete

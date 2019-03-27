@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{ABB7F0CB-4C58-4C4B-ABA5-917DD8E849BD}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>BcProjekt</RootNamespace>
+    <AssemblyName>BcProjekt</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="View\" />
+    <Folder Include="Controller\" />
+    <Folder Include="View\Items\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="View\MainWindowView.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="View\StartModeView.cs" />
+    <Compile Include="View\PropertiesView.cs" />
+    <Compile Include="View\Items\HostView.cs" />
+    <Compile Include="View\Items\StationView.cs" />
+    <Compile Include="View\Items\SwitchView.cs" />
+    <Compile Include="View\Items\ApView.cs" />
+    <Compile Include="View\Items\LegacySwitchView.cs" />
+    <Compile Include="View\Items\LegacyRouterView.cs" />
+    <Compile Include="View\Items\NetLinkView.cs" />
+    <Compile Include="View\Items\ControllerView.cs" />
+    <Compile Include="Model\MainVM.cs" />
+    <Compile Include="Model\HostVM.cs" />
+    <Compile Include="Model\StationVM.cs" />
+    <Compile Include="Model\Basic.cs" />
+    <Compile Include="Model\SwitchVM.cs" />
+    <Compile Include="Model\ApVM.cs" />
+    <Compile Include="Model\LegacySwitchVM.cs" />
+    <Compile Include="Model\LegacyRouterVM.cs" />
+    <Compile Include="Model\NetLinkVM.cs" />
+    <Compile Include="Model\ControllerVM.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\json\Bin\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

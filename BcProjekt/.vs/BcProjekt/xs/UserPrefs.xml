@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{ABB7F0CB-4C58-4C4B-ABA5-917DD8E849BD}|Default">
+  <MonoDevelop.Ide.ItemProperties.BcProjekt PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BcProjekt/View/MainWindowView.cs">
+    <Files>
+      <File FileName="BcProjekt/View/MainWindowView.cs" Line="689" Column="27" />
+      <File FileName="BcProjekt/Model/NetLinkVM.cs" Line="37" Column="24" />
+      <File FileName="BcProjekt/View/Items/SwitchView.cs" Line="276" Column="14" />
+      <File FileName="BcProjekt/View/Items/StationView.cs" Line="507" Column="28" />
+      <File FileName="BcProjekt/View/Items/NetLinkView.cs" Line="307" Column="49" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

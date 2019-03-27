@@ -1,0 +1,8 @@
+/home/jan/Projects/BcProjekt/BcProjekt/bin/Release/BcProjekt.exe
+/home/jan/Projects/BcProjekt/BcProjekt/bin/Release/Newtonsoft.Json.dll
+/home/jan/Projects/BcProjekt/BcProjekt/bin/Release/Newtonsoft.Json.pdb
+/home/jan/Projects/BcProjekt/BcProjekt/bin/Release/Newtonsoft.Json.xml
+/home/jan/Projects/BcProjekt/BcProjekt/obj/x86/Release/BcProjekt.csproj.CoreCompileInputs.cache
+/home/jan/Projects/BcProjekt/BcProjekt/obj/x86/Release/BcProjekt.csproj.CopyComplete
+/home/jan/Projects/BcProjekt/BcProjekt/obj/x86/Release/BcProjekt.exe
+/home/jan/Projects/BcProjekt/BcProjekt/obj/x86/Release/BcProjekt.csprojAssemblyReference.cache

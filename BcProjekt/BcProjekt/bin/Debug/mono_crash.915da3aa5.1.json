@@ -1,0 +1,481 @@
+{
+  "protocol_version" : "0.0.1",
+  "configuration" : {
+    "version" : "5.18.0.225 (tarball Wed Jan  2 21:25:21 UTC 2019)",
+    "tlc" : "__thread",
+    "sigsgev" : "altstack",
+    "notifications" : "epoll",
+    "architecture" : "amd64",
+    "disabled_features" : "none",
+    "smallconfig" : "disabled",
+    "bigarrays" : "disabled",
+    "softdebug" : "enabled",
+    "interpreter" : "enabled",
+    "llvm_support" : "600",
+    "suspend" : "preemptive"
+  },
+  "memory" : {
+    "minor_gc_time" : "0",
+    "major_gc_time" : "0",
+    "minor_gc_count" : "0",
+    "major_gc_count" : "0",
+    "major_gc_time_concurrent" : "0"
+  },
+  "threads" : [
+    {
+      "is_managed" : false,
+      "managed_thread_ptr" : "0x0",
+      "thread_info_addr" : "0x0",
+      "thread_name" : "mono",
+      "native_thread_id" : "0x3b01b740",
+      "ctx" : {
+        "IP" : "0x7f5d3a4f426d",
+        "SP" : "0x7ffca4a71ce8",
+        "BP" : "0x7f5d1c017c70"
+      },
+      "managed_frames" : [
+        {
+          "native_address" : "unregistered"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+          "token" : "0x00000",
+          "native_offset" : "0x0",
+          "il_offset" : "0x00002"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+          "token" : "0x60043a4",
+          "native_offset" : "0x0",
+          "il_offset" : "0x00000"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+          "token" : "0x60043b0",
+          "native_offset" : "0x0",
+          "il_offset" : "0x00040"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+          "token" : "0x60043ba",
+          "native_offset" : "0x0",
+          "il_offset" : "0x00a37"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+          "token" : "0x60043b9",
+          "native_offset" : "0x0",
+          "il_offset" : "0x00000"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+          "token" : "0x600440e",
+          "native_offset" : "0x0",
+          "il_offset" : "0x0001c"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+          "token" : "0x600402f",
+          "native_offset" : "0x0",
+          "il_offset" : "0x00000"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+          "token" : "0x600013b",
+          "native_offset" : "0x0",
+          "il_offset" : "0x0034e"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+          "token" : "0x6000138",
+          "native_offset" : "0x0",
+          "il_offset" : "0x00011"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+          "token" : "0x6000136",
+          "native_offset" : "0x0",
+          "il_offset" : "0x00006"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "72F693DC-C2D9-495F-8731-5EDEC08CE771",
+          "token" : "0x6000001",
+          "native_offset" : "0x0",
+          "il_offset" : "0x0000b"
+        },
+        {
+          "is_managed" : "true",
+          "guid" : "72F693DC-C2D9-495F-8731-5EDEC08CE771",
+          "token" : "0x00000",
+          "native_offset" : "0x0",
+          "il_offset" : "0xffffffff"
+        }
+      ],
+    "unmanaged_frames" : [
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      }
+    ]
+  },
+  {
+    "is_managed" : false,
+    "managed_thread_ptr" : "0x0",
+    "thread_info_addr" : "0x0",
+    "thread_name" : "Debugger agent",
+    "native_thread_id" : "0x371a6700",
+    "ctx" : {
+      "IP" : "0x7f5d3a4f487f",
+      "SP" : "0x7f5d371a59b0",
+      "BP" : "(nil)"
+    },
+    "unmanaged_frames" : [
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "native_address" : "unregistered"
+      }
+    ]
+  },
+  {
+    "is_managed" : false,
+    "managed_thread_ptr" : "0x0",
+    "thread_info_addr" : "0x0",
+    "thread_name" : "mono",
+    "native_thread_id" : "0x241ed700",
+    "ctx" : {
+      "IP" : "0x7f5d39f39428",
+      "SP" : "0x7f5d241ebdf8",
+      "BP" : "0x7f5d341d8d58"
+    },
+    "managed_frames" : [
+      {
+        "native_address" : "unregistered"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+        "token" : "0x00000",
+        "native_offset" : "0x0",
+        "il_offset" : "0x0000b"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+        "token" : "0x6003f7b",
+        "native_offset" : "0x0",
+        "il_offset" : "0x00023"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+        "token" : "0x6003f7a",
+        "native_offset" : "0x0",
+        "il_offset" : "0x00042"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+        "token" : "0x6003f5f",
+        "native_offset" : "0x0",
+        "il_offset" : "0x00000"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+        "token" : "0x6003f64",
+        "native_offset" : "0x0",
+        "il_offset" : "0x00032"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+        "token" : "0x600443c",
+        "native_offset" : "0x0",
+        "il_offset" : "0x00054"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+        "token" : "0x6004058",
+        "native_offset" : "0x0",
+        "il_offset" : "0x00000"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+        "token" : "0x60005ef",
+        "native_offset" : "0x0",
+        "il_offset" : "0x00016"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+        "token" : "0x6001819",
+        "native_offset" : "0x0",
+        "il_offset" : "0x0017d"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+        "token" : "0x6000722",
+        "native_offset" : "0x0",
+        "il_offset" : "0x00009"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+        "token" : "0x00000",
+        "native_offset" : "0x0",
+        "il_offset" : "0x00032"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+        "token" : "0x600013b",
+        "native_offset" : "0x0",
+        "il_offset" : "0x00059"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+        "token" : "0x6000138",
+        "native_offset" : "0x0",
+        "il_offset" : "0x00011"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "A78030B9-A9A5-43B3-81A5-2822D20656D0",
+        "token" : "0x6000136",
+        "native_offset" : "0x0",
+        "il_offset" : "0x00006"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "72F693DC-C2D9-495F-8731-5EDEC08CE771",
+        "token" : "0x6000007",
+        "native_offset" : "0x0",
+        "il_offset" : "0x00006"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "7B0D8732-4CAB-49BF-96EA-C679025E77D1",
+        "token" : "0x60033b0",
+        "native_offset" : "0x0",
+        "il_offset" : "0x00014"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "7B0D8732-4CAB-49BF-96EA-C679025E77D1",
+        "token" : "0x6003344",
+        "native_offset" : "0x0",
+        "il_offset" : "0x00071"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "7B0D8732-4CAB-49BF-96EA-C679025E77D1",
+        "token" : "0x6003343",
+        "native_offset" : "0x0",
+        "il_offset" : "0x00000"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "7B0D8732-4CAB-49BF-96EA-C679025E77D1",
+        "token" : "0x6003342",
+        "native_offset" : "0x0",
+        "il_offset" : "0x0002b"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "7B0D8732-4CAB-49BF-96EA-C679025E77D1",
+        "token" : "0x60033b2",
+        "native_offset" : "0x0",
+        "il_offset" : "0x00008"
+      },
+      {
+        "is_managed" : "true",
+        "guid" : "7B0D8732-4CAB-49BF-96EA-C679025E77D1",
+        "token" : "0x00000",
+        "native_offset" : "0x0",
+        "il_offset" : "0x0004d"
+      }
+    ],
+  "unmanaged_frames" : [
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    }
+  ]
+},
+{
+  "is_managed" : false,
+  "managed_thread_ptr" : "0x0",
+  "thread_info_addr" : "0x0",
+  "thread_name" : "Finalizer",
+  "native_thread_id" : "0x373a7700",
+  "ctx" : {
+    "IP" : "0x7f5d3a4f3827",
+    "SP" : "0x7f5d373a6cf0",
+    "BP" : "0xa536a0"
+  },
+  "unmanaged_frames" : [
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    },
+    {
+      "native_address" : "unregistered"
+    }
+  ]
+}
+]}
